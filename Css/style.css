@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 2px solid gray;
+    background: yellow;
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
+.btn:hover{
+    border-radius: 2px solid rgb(17, 198, 47);
+    background: rgb(208, 9, 9);
+    color: black;
+    transform: scale(1.5);
+}
+.btn2{
+    padding: 10px 30px;
+    border-radius: 2px solid gray;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
+.btn2:active{
+    border-radius: 2px solid rgb(245, 7, 237);
+    background: rgb(51, 6, 148);
+    color: black;
+    transform: scale(0.5);
+}
+.btn3{
+    padding: 10px 30px;
+    border-radius: 2px solid gray;
+    background: rgb(16, 50, 224);
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+}
+.btn3:focus{
+    border-radius: 2px solid rgb(172, 13, 13);
+    background: rgb(20, 94, 7);
+    color: white;
+}
+.block{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 5px 10px;
+    margin: 30px 0;
+    
+}
+.block:hover{
+    transform: scale(1.9);
+    transition: .6s;
+}
+hr{
+    margin: 30px 0;
+}
+p::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+p::first-line{
+    text-decoration: underline;
+}
+h1::before{
+    content: "This is";
+    color: green;
+}
+h1::after{
+    content: "It Academy";
+    color: red;
+
+}
+.list1 li:first-child{
+    color: blue;
+}
+.list1 li:last-child{
+    color: yellow;
+}
+.list2 li:nth-child(even){
+    color: red;
+
+}
+.list2 li:nth-child(odd){
+    color: rgb(58, 15, 228);
+
+}
+.list3 li:nth-child(3n){
+    color: rgb(58, 15, 228);
+
+}
